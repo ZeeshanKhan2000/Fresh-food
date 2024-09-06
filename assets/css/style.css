@@ -1,0 +1,812 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+ul,
+li,
+a,
+.btn-default,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky+.content {
+    padding-top: 102px;
+}
+
+
+
+
+
+
+
+.mobile-menu {
+    display: none;
+}
+
+.sidenav {
+    padding-top: 50px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #46423e;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.mobile-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 76px 5px 75px;
+}
+
+.mobile-image img {
+    width: 100%;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav a {
+    font-size: 21px;
+    color: white;
+    text-align: center;
+    padding: 10px 0px 8px 0px;
+}
+
+.sidenav a {
+    font-size: 21px;
+    color: white;
+    text-align: center;
+    padding: 10px 0px 8px 0px;
+}
+
+header .mobile-menu .contact-btns {
+    width: 50%;
+    margin: auto;
+}
+
+header .mobile-menu .contact-btns a.Enroll:hover,
+header .mobile-menu .contact-btns a.login {
+    transition: 0.5s;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    background: #000;
+    border: 1px solid #000;
+    border-radius: 4px;
+    display: block;
+    padding: 2px 10px;
+    margin: 10px auto;
+}
+
+header .mobile-menu .contact-btns a.login:hover,
+header .mobile-menu .contact-btns a.Enroll {
+    display: block;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    background: #000;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 2px 10px;
+    margin: 10px auto;
+}
+
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    padding: 16px 26px;
+    background: #fdf2e9;
+    z-index: 3;
+}
+
+
+header .header-logo a img {
+    width: 58%;
+}
+
+header .header-main ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header .header-main ul li a {
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+header a.try-btn {
+    background: #ff8d46;
+    padding: 10px 25px;
+    border-radius: 10px;
+    /* padding: 1.2rem 2.4rem; */
+}
+
+header a.try-btn:hover {
+    color: rgb(255 248 246);
+    background-color: #c95a17;
+    transition-duration: 0.6s;
+}
+
+.hero-content h1 {
+    font-size: 51px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.hero-content p {
+    color: black;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 40px;
+    margin-top: 21px;
+}
+
+.hero-content {
+    padding: 40px 40px;
+}
+
+
+.hero-content a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    background: #ff8d46;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.hero-content a:hover {
+    color: rgb(255 248 246);
+    background-color: #c95a17;
+    transition-duration: 0.6s;
+
+}
+
+a.hero-btn.lern {
+    background: whitesmoke;
+    margin-left: 31px;
+}
+
+a.hero-btn.lern:hover {
+    color: rgb(255 248 246);
+    background-color: #c95a17;
+    transition-duration: 0.6s;
+}
+
+.hero-image img {
+    width: 86%;
+}
+
+.hero-image {
+    padding: 40px 0;
+}
+
+
+
+.meals-delivered {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 32px;
+    margin-top: 55px;
+    padding: 0 0 0 30px;
+}
+
+.costumer-reviwe {
+    display: flex;
+    /* align-items: center; */
+}
+
+.costumer-reviwe img {
+    width: 46px;
+    border-radius: 50%;
+    margin-right: -12px;
+    border: 3px solid black;
+}
+
+.deliverd-items h4 {
+    font-size: 17px;
+}
+
+
+.meals-delivered h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.meals-delivered h4 span {
+    color: #ff8d46;
+    font-weight: 900;
+}
+
+h2.featured-heading {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 41px;
+    padding: 21px 0;
+    text-align: center;
+}
+
+.featured-reviewes img {
+    width: 13%;
+    /* margin: 0 14px; */
+}
+
+.featured-reviewes {
+    /* text-align: center; */
+    padding: 22px 5px;
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+}
+
+section#how-it-work {
+    padding: 20px 0;
+}
+
+.how-work-head h4 {
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #cf711f;
+}
+
+.how-work-head h1 {
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 700;
+}
+
+.how-work-head {
+    padding: 20px 0;
+    margin-bottom: 60px;
+}
+
+.about-work h1 {
+    font-size: 50px;
+    line-height: 58px;
+    font-weight: 800;
+    color: #ddd;
+}
+
+.about-work h4 {
+    font-size: 31px;
+    line-height: 44px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+.about-work p {
+    font-size: 18px;
+    line-height: 33px;
+    font-weight: 500;
+}
+
+
+.about-work-image img {
+    width: 30%;
+}
+
+.about-work-image {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+section#hero-content {
+    background: #fdf2e9;
+}
+
+section#recipes-content {
+    padding: 40px;
+}
+
+.recipes-head h4 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #ff8d46;
+}
+
+.recipes-head h1 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.recipes-head {
+    padding: 35px 0px;
+}
+
+section#recipes-content {
+    padding: 40px;
+}
+
+.recipes-head h4 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #ff8d46;
+}
+
+.recipes-head h1 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.recipes-head {
+    padding: 35px 0px;
+    text-align: center;
+}
+
+.recipes-meal img {
+    width: 100%;
+    border-radius: 16px 17px 0px 0px;
+}
+
+
+.recipes-meal {
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+    border-radius: 11px;
+}
+
+.Meals-content {
+    padding: 40px 0px 40px 48px;
+    border-radius: 12px;
+}
+
+.Meals-content h6 span {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 5px 12px;
+    background: tomato;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.Meals-content h6 span:hover {
+    color: rgb(255 248 246);
+    background-color: #c95a17;
+    transition-duration: 0.6s;
+}
+
+.Meals-content h4 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 46px;
+    padding: 12px 0px;
+}
+
+.Meals-content ul li {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 39px;
+}
+
+
+
+.Meals-content ul li span {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-right: 12px;
+}
+
+
+.Works-diet h3 {
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 46px;
+    padding: 0px 0px 15px 0px;
+}
+
+.Works-diet ul li {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 27px;
+    padding: 10px 0px;
+}
+
+.Works-diet ul li span {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 25px;
+    padding: 0px 25px 0px 0px;
+    color: tomato;
+}
+
+
+.see-more a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: tomato;
+    /* align-items: center !important; */
+}
+
+.see-more {
+    padding: 30px 0;
+    align-items: center !important;
+    text-align: center;
+}
+
+
+.testionial-photo img {
+    width: 28%;
+    margin: 15px 13px;
+}
+
+
+.testionials-content h4 {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+.testionials-content h1 {
+    font-size: 39px;
+    line-height: 50px;
+    font-weight: 700;
+    padding: 18px 0px;
+}
+
+.testionials-content {
+    padding: 25px 31px 25px 36px;
+}
+
+.testanial-clent img {
+    width: 18%;
+    border-radius: 30px;
+}
+
+.testanial-clent p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 25px 0px;
+}
+
+.testanial-clent h6 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.testanial-clent {
+    margin: 25px 0px 25px 42px;
+}
+
+section#testimonal-sect {
+    padding: 25px 0px;
+    background-color: #fdf2e9;
+}
+
+/* //////////////////////////////////// */
+
+.pricing-cards h4 {
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 52px;
+    text-align: center;
+}
+
+.pricing-cards h1 {
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 57px;
+    text-align: center;
+}
+
+.pricing-cards p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 33px;
+    text-align: center;
+}
+
+.pricing-cards {
+    border: 2px solid #d8711f;
+    padding: 50px 5px 50px 20px;
+    text-align: center;
+    width: 77%;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+ul.Pricing-list li {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 33px;
+    padding: 6px 0;
+}
+
+.pricing-cards a {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 33px;
+    background: tomato;
+    padding: 8px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.pricing-cards a:hover {
+    color: rgb(255 248 246);
+    background-color: #c95a17;
+    transition-duration: 0.6s;
+}
+
+ul.Pricing-list {
+    padding: 20px 0 30px 51px;
+    text-align: initial;
+}
+
+ul.Pricing-list li span {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 33px;
+    padding: 0px 20px 0px 0;
+    color: tomato;
+}
+
+.pricing-cards.best-pricing {
+    background: #eeddcf;
+}
+
+
+
+.pricing-section {
+    padding: 50px 0px;
+}
+
+.pricing-pra p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: center;
+    padding: 46px 0;
+    margin-bottom: 50px;
+}
+
+.pricing-reviwes p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+
+.pricing-reviwes p span {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 20px;
+    background: #fdf2e9;
+    padding: 12px 15px;
+    border-radius: 31px;
+    color: tomato;
+    /* margin: 48px 0; */
+}
+
+
+
+.pricing-reviwes h6 {
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 41px;
+    padding: 29px 0 10px 0;
+}
+
+section#contact-us {
+    padding: 51px 0;
+}
+
+form.costomer-form {
+    display: flex;
+    align-items: center;
+}
+
+.contact-us-head h1 {
+    font-size: 37px;
+    line-height: 55px;
+    font-weight: 700;
+}
+
+
+.contact-us-head p {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    padding: 17px 0;
+}
+
+form.costomer-form .person-name input {
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+form.costomer-form .person-id input {
+    width: 100%;
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+form.costomer-form .categories-persson input {
+    width: 100%;
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.person-name label {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 0px;
+    color: #45260a;
+}
+
+.categories-persson label {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 0px;
+}
+
+.person-id label {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 0px;
+}
+
+
+.contact-btn button {
+    width: 100%;
+    padding: 9px 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 50px 0px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    background: #45260a;
+    color: white;
+}
+
+.contact-btn button:hover {
+    color: #000;
+    background-color: #ffffff;
+    transition-duration: 0.6s;
+}
+
+.contact-us-head {
+    background: #e88833;
+    padding: 70px 22px;
+    height: 100%;
+}
+
+.foter-logo img {
+    width: 71%;
+}
+
+.foter-logo ul {
+    align-items: center;
+    display: flex;
+    /* justify-content: center; */
+    gap: 15px;
+    padding-left: 5px;
+    padding-top: 22px;
+}
+
+.foter-logo ul li span {
+    font-size: 20px;
+    background: wheat;
+    padding: 7px 13px;
+    border-radius: 12px;
+}
+
+
+.footer-links ul li {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    padding: 6px 0px;
+}
+
+.footer-links h4 {
+    font-size: 22px;
+    line-height: 41px;
+    font-weight: 600;
+    padding: 0px 0px 8px;
+}
+
+footer {
+    padding: 60px 0px;
+}
+
+.foter-logo p {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 30px 4px;
+}
+
+
+.fadein {
+    opacity: 0;
+    transition: all 1.5s;
+    transform: translate(0, 100px);
+}
+
+.fadein.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}

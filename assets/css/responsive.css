@@ -1,0 +1,522 @@
+@media (max-width: 1200px) {}
+
+@media (max-width: 1025px) {
+    .testionial-photo img {
+        width: 36%;
+        margin: 15px 13px;
+    }
+
+    .hero-content h1 {
+        font-size: 39px;
+        font-weight: 700;
+        line-height: 46px;
+    }
+
+    .hero-content a {
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        background: #ff8d46;
+        padding: 10px 19px;
+        border-radius: 10px;
+    }
+
+    .meals-delivered {
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        gap: 32px;
+        margin-top: 55px;
+        padding: 0 0 26px 30px;
+        flex-wrap: wrap;
+    }
+
+    .Works-diet h3 {
+        font-size: 27px;
+        font-weight: 600;
+        line-height: 46px;
+        padding: 0px 0px 15px 0px;
+    }
+
+
+
+}
+
+@media (max-width: 768px) {
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .desktop-header {
+        display: none;
+    }
+
+
+    /* .hero-content h1 {
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 58px;
+    } */
+
+    .mobile-image {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px;
+    }
+
+    .mobile-image a img {
+        width: 58%;
+    }
+
+    .mobile-image span {
+        font-size: 37px !important;
+    }
+
+
+    .sidenav a {
+        font-size: 21px;
+        color: white;
+        text-align: center;
+        padding: 16px 0px 8px 0px;
+        text-decoration: none;
+    }
+
+    .mobile-center {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    header .mobile-menu .contact-btns {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .hero-image img {
+        width: 60%;
+        text-align: center;
+    }
+
+    .hero-image {
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .about-work h1 {
+        font-size: 39px;
+        line-height: 58px;
+        font-weight: 800;
+        color: #ddd;
+    }
+
+    .about-work h4 {
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: 700;
+        padding: 11px 0;
+    }
+
+    .about-work p {
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 500;
+    }
+
+    .how-work-head h1 {
+        font-size: 28px;
+        line-height: 48px;
+        font-weight: 700;
+    }
+
+    .recipes-head h1 {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 60px;
+    }
+
+
+    .pricing-cards {
+        border: 2px solid #d8711f;
+        padding: 50px 5px 50px 20px;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        border-radius: 12px;
+    }
+
+    .pricing-reviwes {
+        margin: 24px 0;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .desktop-header {
+        display: none;
+    }
+
+    .mobile-image {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px;
+
+    }
+
+    .hero-content {
+        padding: 0px 10px;
+    }
+
+    header {
+        padding: 16px 0px;
+        background: #fdf2e9;
+    }
+
+    .mobile-image a img {
+        width: 78%;
+    }
+
+    .hero-content h1 {
+        font-size: 27px;
+        font-weight: 700;
+        line-height: 34px;
+    }
+
+    .hero-content p {
+        color: black;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-bottom: 40px;
+        margin-top: 21px;
+    }
+
+    .hero-content a {
+        font-size: 14px;
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        background: #ff8d46;
+        padding: 7px 12px;
+        border-radius: 10px;
+    }
+
+    a.hero-btn.lern {
+        background: whitesmoke;
+        margin-left: 9px;
+    }
+
+    .meals-delivered {
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        gap: 18px;
+        margin-top: 55px;
+        padding: 0 0 0 30px;
+        flex-wrap: wrap;
+    }
+
+    .hero-image img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .featured-reviewes img {
+        width: 55%;
+        /* margin: 0 14px; */
+    }
+
+    .featured-reviewes {
+        /* text-align: center; */
+        padding: 22px 5px;
+        display: flex;
+        gap: 32px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .how-work-head h1 {
+        font-size: 26px;
+        line-height: 33px;
+        font-weight: 700;
+    }
+
+    .how-work-head {
+        padding: 20px 0;
+        margin-bottom: 10px;
+    }
+
+    section#recipes-content {
+        padding: 0px;
+    }
+
+    .recipes-head h1 {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 39px;
+        padding: 12px 1px;
+    }
+
+    .about-work-image {
+        text-align: center;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+
+    .recipes-meal {
+        box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+        border-radius: 11px;
+        margin: 12px 0;
+    }
+
+    .Works-diet h3 {
+        font-size: 29px;
+        font-weight: 600;
+        line-height: 49px;
+        padding: 0px 0px 15px 0px;
+    }
+
+    .Works-diet ul li {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 23px;
+        padding: 10px 0px;
+    }
+
+    .testionials-content {
+        padding: 25px 0px 25px 10px;
+    }
+
+    .testionials-content h1 {
+        font-size: 28px;
+        line-height: 37px;
+        font-weight: 700;
+        padding: 18px 0px;
+    }
+
+    .testionial-photo img {
+        width: 48%;
+        margin: 10px 0px;
+    }
+
+    .pricing-cards {
+        border: 2px solid #d8711f;
+        padding: 50px 5px 50px 0px;
+        text-align: center;
+        width: 100%;
+        margin: 10px 0;
+        border-radius: 12px;
+    }
+
+    ul.Pricing-list {
+        padding: 10px 0 30px 21px;
+        text-align: initial;
+    }
+
+    .pricing-reviwes {
+        margin: 24px 0px;
+    }
+}
+
+
+
+
+
+@media (max-width: 375px) {
+    .desktop-header {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .hero-content {
+        padding: 0px 10px;
+    }
+
+    header {
+        padding: 16px 0px;
+        background: #fdf2e9;
+    }
+
+    .mobile-image a img {
+        width: 78%;
+    }
+
+    .hero-content h1 {
+        font-size: 27px;
+        font-weight: 700;
+        line-height: 34px;
+    }
+
+    .hero-content p {
+        color: black;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-bottom: 40px;
+        margin-top: 21px;
+    }
+
+    .hero-content a {
+        font-size: 14px;
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        background: #ff8d46;
+        padding: 7px 12px;
+        border-radius: 10px;
+    }
+
+    a.hero-btn.lern {
+        background: whitesmoke;
+        margin-left: 9px;
+    }
+
+    .meals-delivered {
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        gap: 18px;
+        margin-top: 55px;
+        padding: 0 0 0 30px;
+        flex-wrap: wrap;
+    }
+
+    .hero-image img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .featured-reviewes img {
+        width: 55%;
+        /* margin: 0 14px; */
+    }
+
+    .featured-reviewes {
+        /* text-align: center; */
+        padding: 22px 5px;
+        display: flex;
+        gap: 32px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .how-work-head h1 {
+        font-size: 26px;
+        line-height: 33px;
+        font-weight: 700;
+    }
+
+    .how-work-head {
+        padding: 20px 0;
+        margin-bottom: 10px;
+    }
+
+    section#recipes-content {
+        padding: 0px;
+    }
+
+    .recipes-head h1 {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 39px;
+        padding: 12px 1px;
+    }
+
+    .about-work-image {
+        text-align: center;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+
+    .recipes-meal {
+        box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+        border-radius: 11px;
+        margin: 12px 0;
+    }
+
+    .Works-diet h3 {
+        font-size: 29px;
+        font-weight: 600;
+        line-height: 49px;
+        padding: 0px 0px 15px 0px;
+    }
+
+    .Works-diet ul li {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 23px;
+        padding: 10px 0px;
+    }
+
+    .testionials-content {
+        padding: 25px 0px 25px 10px;
+    }
+
+    .testionials-content h1 {
+        font-size: 28px;
+        line-height: 37px;
+        font-weight: 700;
+        padding: 18px 0px;
+    }
+
+    .testionial-photo img {
+        width: 48%;
+        margin: 10px 0px;
+    }
+
+    .pricing-cards {
+        border: 2px solid #d8711f;
+        padding: 50px 5px 50px 0px;
+        text-align: center;
+        width: 100%;
+        margin: 10px 0;
+        border-radius: 12px;
+    }
+
+    ul.Pricing-list {
+        padding: 10px 0 30px 21px;
+        text-align: initial;
+    }
+
+    .pricing-reviwes {
+        margin: 24px 0px;
+    }
+}
